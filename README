@@ -1,0 +1,11 @@
+kmesh generator
+
+It prints a (entries)x(columns) mesh, it can be used as input to
+another program.
+
+> $ make
+> $ ./kmesh
+> usage: kmesh <entries> [<columns>] [width1 width2 ..]
+>
+> If optional array is not provided, it is assumed to be a
+> column with default width of 1.0.
